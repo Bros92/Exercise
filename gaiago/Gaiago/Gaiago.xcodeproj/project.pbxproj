@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D4A5119253312F700BA7FA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4A5118253312F700BA7FA0 /* LaunchScreen.storyboard */; };
+		4D4A511D25334E8200BA7FA0 /* ProviderDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A511C25334E8200BA7FA0 /* ProviderDetailsViewModel.swift */; };
+		4D4A51202533524C00BA7FA0 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A511F2533524C00BA7FA0 /* Endpoints.swift */; };
+		4D4A51242533A2B600BA7FA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A51232533A2B600BA7FA0 /* SceneDelegate.swift */; };
+		4D4A51282533A3FA00BA7FA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A51272533A3FA00BA7FA0 /* AppDelegate.swift */; };
+		4D4A512C2533A64300BA7FA0 /* GaiagoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4A512B2533A64300BA7FA0 /* GaiagoApp.swift */; };
+		4D5A95EB253236D8003CBB92 /* ProviderListElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A95EA253236D8003CBB92 /* ProviderListElementView.swift */; };
+		4D5A95EE25323A5C003CBB92 /* ProviderElementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A95ED25323A5C003CBB92 /* ProviderElementViewModel.swift */; };
+		4DACE767253105AE0092CD3A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACE765253105A10092CD3A /* NetworkError.swift */; };
+		4DACE76A253105CE0092CD3A /* EncodingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACE769253105CE0092CD3A /* EncodingType.swift */; };
+		4DACE76E253105EF0092CD3A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACE76D253105EF0092CD3A /* NetworkManager.swift */; };
+		4DACE775253106360092CD3A /* RequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACE774253106360092CD3A /* RequestDelegate.swift */; };
+		4DACE78625310CD80092CD3A /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACE78525310CD80092CD3A /* Provider.swift */; };
+		4DACE78C2531131F0092CD3A /* ProviderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACE78B2531131F0092CD3A /* ProviderViewModel.swift */; };
+		4DACE79525313BD30092CD3A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACE79425313BD30092CD3A /* String+Extension.swift */; };
+		4DACE79B25322E280092CD3A /* ProviderDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DACE79A25322E280092CD3A /* ProviderDetailsView.swift */; };
+		4DCDBE272530F8AA00DA5177 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4DCDBE262530F8AA00DA5177 /* Alamofire */; };
+		4DFE3ACC2530D7F400FDFA7B /* ProviderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE3ACB2530D7F400FDFA7B /* ProviderListView.swift */; };
+		4DFE3ACE2530D7F600FDFA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE3ACD2530D7F600FDFA7B /* Assets.xcassets */; };
+		4DFE3AD12530D7F600FDFA7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE3AD02530D7F600FDFA7B /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D4A5118253312F700BA7FA0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D4A511C25334E8200BA7FA0 /* ProviderDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetailsViewModel.swift; sourceTree = "<group>"; };
+		4D4A511F2533524C00BA7FA0 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		4D4A51232533A2B600BA7FA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D4A51272533A3FA00BA7FA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D4A512B2533A64300BA7FA0 /* GaiagoApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaiagoApp.swift; sourceTree = "<group>"; };
+		4D5A95EA253236D8003CBB92 /* ProviderListElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderListElementView.swift; sourceTree = "<group>"; };
+		4D5A95ED25323A5C003CBB92 /* ProviderElementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderElementViewModel.swift; sourceTree = "<group>"; };
+		4DACE765253105A10092CD3A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		4DACE769253105CE0092CD3A /* EncodingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodingType.swift; sourceTree = "<group>"; };
+		4DACE76D253105EF0092CD3A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4DACE774253106360092CD3A /* RequestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDelegate.swift; sourceTree = "<group>"; };
+		4DACE78525310CD80092CD3A /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		4DACE78B2531131F0092CD3A /* ProviderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderViewModel.swift; sourceTree = "<group>"; };
+		4DACE79425313BD30092CD3A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		4DACE79A25322E280092CD3A /* ProviderDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderDetailsView.swift; sourceTree = "<group>"; };
+		4DFE3AC62530D7F400FDFA7B /* Gaiago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaiago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFE3ACB2530D7F400FDFA7B /* ProviderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderListView.swift; sourceTree = "<group>"; };
+		4DFE3ACD2530D7F600FDFA7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFE3AD02530D7F600FDFA7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DFE3AD22530D7F600FDFA7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFE3AC32530D7F400FDFA7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DCDBE272530F8AA00DA5177 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DACE757253104E70092CD3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE3ACB2530D7F400FDFA7B /* ProviderListView.swift */,
+				4DACE79A25322E280092CD3A /* ProviderDetailsView.swift */,
+				4D5A95EA253236D8003CBB92 /* ProviderListElementView.swift */,
+				4D4A5118253312F700BA7FA0 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DACE758253104FA0092CD3A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4DACE76D253105EF0092CD3A /* NetworkManager.swift */,
+				4DACE76C253105D40092CD3A /* Enums */,
+				4DACE7642531059B0092CD3A /* Errors */,
+				4DACE777253106420092CD3A /* Protocols */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4DACE7642531059B0092CD3A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				4DACE765253105A10092CD3A /* NetworkError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		4DACE76C253105D40092CD3A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4DACE769253105CE0092CD3A /* EncodingType.swift */,
+				4D4A511F2533524C00BA7FA0 /* Endpoints.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		4DACE777253106420092CD3A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4DACE774253106360092CD3A /* RequestDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4DACE78125310ADC0092CD3A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4DACE78B2531131F0092CD3A /* ProviderViewModel.swift */,
+				4D5A95ED25323A5C003CBB92 /* ProviderElementViewModel.swift */,
+				4D4A511C25334E8200BA7FA0 /* ProviderDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4DACE78425310C7D0092CD3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DACE78525310CD80092CD3A /* Provider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DACE79725313BD70092CD3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DACE79425313BD30092CD3A /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4DFE3ABD2530D7F400FDFA7B = {
+			isa = PBXGroup;
+			children = (
+				4DFE3AC82530D7F400FDFA7B /* Gaiago */,
+				4DFE3AC72530D7F400FDFA7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFE3AC72530D7F400FDFA7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE3AC62530D7F400FDFA7B /* Gaiago.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFE3AC82530D7F400FDFA7B /* Gaiago */ = {
+			isa = PBXGroup;
+			children = (
+				4D4A51272533A3FA00BA7FA0 /* AppDelegate.swift */,
+				4D4A51232533A2B600BA7FA0 /* SceneDelegate.swift */,
+				4D4A512B2533A64300BA7FA0 /* GaiagoApp.swift */,
+				4DACE79725313BD70092CD3A /* Extensions */,
+				4DACE78425310C7D0092CD3A /* Models */,
+				4DACE758253104FA0092CD3A /* Network */,
+				4DACE78125310ADC0092CD3A /* ViewModel */,
+				4DACE757253104E70092CD3A /* Views */,
+				4DFE3ACD2530D7F600FDFA7B /* Assets.xcassets */,
+				4DFE3AD22530D7F600FDFA7B /* Info.plist */,
+				4DFE3ACF2530D7F600FDFA7B /* Preview Content */,
+			);
+			path = Gaiago;
+			sourceTree = "<group>";
+		};
+		4DFE3ACF2530D7F600FDFA7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE3AD02530D7F600FDFA7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFE3AC52530D7F400FDFA7B /* Gaiago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFE3AD52530D7F600FDFA7B /* Build configuration list for PBXNativeTarget "Gaiago" */;
+			buildPhases = (
+				4DFE3AC22530D7F400FDFA7B /* Sources */,
+				4DFE3AC32530D7F400FDFA7B /* Frameworks */,
+				4DFE3AC42530D7F400FDFA7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gaiago;
+			packageProductDependencies = (
+				4DCDBE262530F8AA00DA5177 /* Alamofire */,
+			);
+			productName = Gaiago;
+			productReference = 4DFE3AC62530D7F400FDFA7B /* Gaiago.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFE3ABE2530D7F400FDFA7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4DFE3AC52530D7F400FDFA7B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 4DFE3AC12530D7F400FDFA7B /* Build configuration list for PBXProject "Gaiago" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFE3ABD2530D7F400FDFA7B;
+			packageReferences = (
+				4DCDBE252530F8AA00DA5177 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 4DFE3AC72530D7F400FDFA7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFE3AC52530D7F400FDFA7B /* Gaiago */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFE3AC42530D7F400FDFA7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4A5119253312F700BA7FA0 /* LaunchScreen.storyboard in Resources */,
+				4DFE3AD12530D7F600FDFA7B /* Preview Assets.xcassets in Resources */,
+				4DFE3ACE2530D7F600FDFA7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFE3AC22530D7F400FDFA7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5A95EB253236D8003CBB92 /* ProviderListElementView.swift in Sources */,
+				4DACE767253105AE0092CD3A /* NetworkError.swift in Sources */,
+				4DACE78C2531131F0092CD3A /* ProviderViewModel.swift in Sources */,
+				4D4A512C2533A64300BA7FA0 /* GaiagoApp.swift in Sources */,
+				4DACE79B25322E280092CD3A /* ProviderDetailsView.swift in Sources */,
+				4DFE3ACC2530D7F400FDFA7B /* ProviderListView.swift in Sources */,
+				4D4A51242533A2B600BA7FA0 /* SceneDelegate.swift in Sources */,
+				4DACE79525313BD30092CD3A /* String+Extension.swift in Sources */,
+				4D5A95EE25323A5C003CBB92 /* ProviderElementViewModel.swift in Sources */,
+				4D4A51282533A3FA00BA7FA0 /* AppDelegate.swift in Sources */,
+				4DACE76E253105EF0092CD3A /* NetworkManager.swift in Sources */,
+				4DACE78625310CD80092CD3A /* Provider.swift in Sources */,
+				4D4A511D25334E8200BA7FA0 /* ProviderDetailsViewModel.swift in Sources */,
+				4D4A51202533524C00BA7FA0 /* Endpoints.swift in Sources */,
+				4DACE76A253105CE0092CD3A /* EncodingType.swift in Sources */,
+				4DACE775253106360092CD3A /* RequestDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4DFE3AD32530D7F600FDFA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DFE3AD42530D7F600FDFA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFE3AD62530D7F600FDFA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gaiago/Preview Content\"";
+				DEVELOPMENT_TEAM = 3896BJYZC8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Gaiago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.broscritto.Gaiago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DFE3AD72530D7F600FDFA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Gaiago/Preview Content\"";
+				DEVELOPMENT_TEAM = 3896BJYZC8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Gaiago/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.broscritto.Gaiago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFE3AC12530D7F400FDFA7B /* Build configuration list for PBXProject "Gaiago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFE3AD32530D7F600FDFA7B /* Debug */,
+				4DFE3AD42530D7F600FDFA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFE3AD52530D7F600FDFA7B /* Build configuration list for PBXNativeTarget "Gaiago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFE3AD62530D7F600FDFA7B /* Debug */,
+				4DFE3AD72530D7F600FDFA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DCDBE252530F8AA00DA5177 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DCDBE262530F8AA00DA5177 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DCDBE252530F8AA00DA5177 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DFE3ABE2530D7F400FDFA7B /* Project object */;
+}
